@@ -1,0 +1,56 @@
+body {
+    background-color: #EF3B68;
+}
+
+.title {
+    color: #fff
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.contButtons {
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.boxBtnCancel,
+.boxBtnSucess {
+    padding: 20px;
+    transition: all 0.2s linear;
+}
+
+.btnConfirm {
+    background-color: #87CD86;
+    border-color: #87CD86;
+}
+
+.btnConfirm:hover {
+    background-color: #87cd8697;
+    border-color: #87CD86;
+}
+
+.btnConfirm:focus {
+    background-color: #87cd86;
+}
+
+.btnCancel {
+    background-color: #FC93A9;
+    border-color: #FC93A969;
+}
+
+.btnCancel:hover {
+    background-color: #FC93A997;
+    border-color: #FC93A9;
+}
+
+.btnCancel:focus {
+    background-color: #FC93A9;
+}
